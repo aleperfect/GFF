@@ -4,7 +4,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   throw false
   }
   let pesan = args.join` `
-  let oi = `*🛍️https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY ${pesan}`
+  let oi = `*🛍️https://www.instagram.com/ussxr_quesitx ${pesan}`
   let teks = `*⬇️Venta de 🤖 ,regedits 🖥️📱 ,sensibilidades📱 ,+ 30 metodos ,cuentas ff y mass⬇️*
    ${oi}\n\n🛍️ *@Ale.izn_20:*\n`
   for (let mem of participants) {
@@ -14,7 +14,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   }
   handler.help = ['tagall <mesaje>','invocar <mesaje>']
   handler.tags = ['group']
-  handler.command = /^(tagall|invocar|invocacion|todos|invocación|aviso|despierten)$/i
+  handler.command = /^(tagall|invocar|h|todos|invocación|aviso|despierten)$/i
   handler.admin = true
   handler.group = true
   export default handler
